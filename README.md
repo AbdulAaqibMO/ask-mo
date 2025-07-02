@@ -1,5 +1,7 @@
 # AskMO - Motability Operations FAQ Assistant
 
+![oaicite:6](https://raw.githubusercontent.com/AbdulAaqibMO/ask-mo/241d1dfdbc8426727a5efe8edf9c6f133dd2faa2/public/askMOpicture.png)
+
 AskMO is an interactive FAQ assistant designed specifically for Motability Operations users. It provides quick, accurate answers to common questions about vehicle adaptations, mobility equipment, and Motability scheme services.
 
 ## Features
