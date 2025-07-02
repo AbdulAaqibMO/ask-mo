@@ -4,6 +4,8 @@
 
 AskMO is an interactive FAQ assistant designed specifically for Motability Operations users. It provides quick, accurate answers to common questions about vehicle adaptations, mobility equipment, and Motability scheme services.
 
+The AI overview file is in public/AI Overview.docx
+
 ## Features
 
 - 🎯 **Smart FAQ Search**: Instantly find answers to questions about vehicle adaptations and Motability services
