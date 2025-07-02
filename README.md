@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AskMO - Motability Operations FAQ Assistant
+
+AskMO is an interactive FAQ assistant designed specifically for Motability Operations users. It provides quick, accurate answers to common questions about vehicle adaptations, mobility equipment, and Motability scheme services.
+
+## Features
+
+- 🎯 **Smart FAQ Search**: Instantly find answers to questions about vehicle adaptations and Motability services
+- 🎤 **Voice Input Support**: Ask questions using voice commands for hands-free operation
+- 🔊 **Text-to-Speech**: Listen to answers with clear text-to-speech functionality
+- 💻 **Modern UI**: Clean, accessible interface built with Next.js and Tailwind CSS
+- ⚡ **Real-time Updates**: Instant responses with no page reloads
+- 🌐 **Accessibility**: Designed with accessibility in mind for all users
+
+## Tech Stack
+
+- **Frontend**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS with Shadcn UI components
+- **Speech Recognition**: Web Speech API
+- **Text-to-Speech**: Web Speech Synthesis API
+- **State Management**: React Hooks
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository**
+   ```
+   git clone https://github.com/AbdulAaqibMO/ask-mo.git
+   cd ask-mo
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. **Install dependencies**
+   ```
+   npm install
+   ```
+
+3. **Run the development server**
+   ```
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+
+## Project Structure
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/
+├── app/              # Next.js app router pages
+├── components/       # React components
+│   ├── ChatInterface.tsx
+│   ├── ChatPage.tsx
+│   └── ui/          # Reusable UI components
+├── data/            # FAQ data
+├── hooks/           # Custom React hooks
+└── utils/           # Utility functions
+```
